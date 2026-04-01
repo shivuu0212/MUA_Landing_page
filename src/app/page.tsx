@@ -4,6 +4,7 @@ import Portfolio from "@/components/Portfolio";
 import BrideCarousel from "@/components/BrideCarousel";
 import PhilosophyAndFAQ from "@/components/PhilosophyAndFAQ";
 import BookingForm from "@/components/BookingForm";
+import PaymentSection from "@/components/PaymentSection";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="reveal"><BrideCarousel /></div>
       <div className="reveal"><PhilosophyAndFAQ /></div>
       <div className="reveal"><BookingForm /></div>
+      <div className="reveal"><PaymentSection /></div>
       <Footer />
     </main>
   );
